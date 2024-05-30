@@ -1,0 +1,113 @@
+
+html {
+    background-color: #cfeac3;
+  }
+  
+  header {
+    background-color: #2d2d2d;
+    height: 100px;
+  }
+  .endle{
+    position: absolute;
+
+  }
+  
+  .insearch {
+    margin-top: 30px;
+    background-color: #6d8a6d;
+    border: 0;
+    border-radius: 500px;
+    color: #fff ;
+    height: 48px;
+    padding: 6px 100px;
+    text-overflow: ellipsis;
+    width: 100%;
+  }
+  
+  .sign {
+    margin-top: 30px;
+    font-weight: 700;
+    font-family: Calibri;
+    background-color: transparent;
+    border: 0px;
+    border-radius: 9999px;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    align-items: center;
+    color: #ffe7e7;
+    margin-left: 10px;
+    margin-right: 25px;
+    text-decoration: none;
+  }
+  
+  .login {
+    margin-top: 30px;
+    border: 0;
+    cursor: pointer;
+    font-weight: 700;
+    font-family: Calibri;
+    background-color: #6d8a6d;
+    color: #ffe7e7;
+    border-radius: 9999px;
+    align-items: center;
+    justify-content: center;
+    padding-block-start: 8px;
+    padding-block-end: 8px;
+    padding-inline-start: 8px;
+    padding-inline-end: 8px;
+    text-decoration: none;
+  }
+
+  
+  .auth {
+    display: flex;
+    align-items: center;
+  }
+  
+  .searchres {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    background-color: #cfeac3;
+    gap: 20px;
+    justify-content: center;
+    padding: 100px;
+  }
+  
+  .song-card {
+    background-color: #6d8a6d;
+    border-radius: 5px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    width: 256px;
+  }
+  
+  .song-card img {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+  }
+  
+  .song-card h3 {
+    font-size: 1.2em;
+    margin: 10px 0 10px;
+    text-align: center;
+  }
+  
+  .song-card p {
+    font-size: 0.9em;
+    margin: 0 0 10px;
+    text-align: center;
+  }
+  
+  .song-card audio {
+    width: 100%;
+    margin-top: 5px;
+  }  
+
+
